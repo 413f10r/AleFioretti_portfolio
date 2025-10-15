@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <div className="bkg-container">
-      {/* Hero Section -*/}
+      {/* Hero Section*/}
       <div className="container-fluid h-100 d-flex flex-column">
         <div className="row flex-grow-1">
 
