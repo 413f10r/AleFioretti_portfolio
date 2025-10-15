@@ -6,7 +6,7 @@ import { TbBrandTypescript } from 'react-icons/tb'
 import myphoto from './img/myphoto.jpg'
 import smartmoodHome from './img/smartmood/smartmood-home.jpeg'
 import kickshopHome from './img/kickshop/kickshop-home.jpeg'
-import BooRoadHome from './img/booroad/booroad-home.PNG'
+import BooRoadHome from './img/booroad/booroad-home.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
