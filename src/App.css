@@ -16,7 +16,8 @@
   background-position: center;
   background-repeat: no-preference;
   position: relative;
-  overflow: hidden; /* Previene overflow */
+  overflow: hidden;
+  /* Previene overflow */
 }
 
 /* Glass Effect */
@@ -67,11 +68,13 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
   position: relative;
-  flex-shrink: 0; /* Previene il rimpicciolimento */
+  flex-shrink: 0;
+  /* Previene il rimpicciolimento */
 }
 
 .skill-icon:hover {
-  transform: scale(1.15); /* Scala ridotta */
+  transform: scale(1.15);
+  /* Scala ridotta */
   background: rgba(255, 255, 255, 0.2) !important;
 }
 
@@ -125,17 +128,17 @@
   .skills-container {
     gap: 1vh;
   }
-  
+
   .skill-icon {
     width: 50px;
     height: 50px;
   }
-  
+
   .skill-label {
     top: 55px;
     font-size: 10px;
   }
-  
+
   .skills-footer-relative {
     bottom: 2vh;
   }
@@ -145,4 +148,49 @@
 .container-fluid {
   max-height: 100vh;
   overflow: hidden;
+}
+
+/* Projects Carousel */
+.projects-carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.carousel-arrow {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.carousel-arrow:hover {
+  background: rgba(255, 255, 255, 0.25) !important;
+}
+
+.projects-carousel {
+  height: calc(12rem * 3 + 0.75rem * 2);
+  width: 20rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.projects-carousel-track {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: transform 0.6s ease-in-out;
+}
+
+.projects-carousel-slide {
+  height: 12rem;
+  width: 20rem;
+  flex-shrink: 0;
 }

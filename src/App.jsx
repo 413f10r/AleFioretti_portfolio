@@ -4,11 +4,8 @@ import { SiExpress, SiMysql } from 'react-icons/si'
 import { DiJavascript, DiJavascript1, DiNodejs } from 'react-icons/di'
 import { TbBrandTypescript } from 'react-icons/tb'
 import myphoto from './img/myphoto.jpg'
-import smartmoodHome from './img/smartmood/smartmood-home.jpeg'
-import kickshopHome from './img/kickshop/kickshop-home.jpeg'
-import BooRoadHome from './img/booroad/booroad-home.jpeg'
-import iotiscelgoHome from './img/Screen-iotiscelgo.png'
-import ippolitoDesignHome from './img/Screen-ippolito.design.png'
+import ProjectsCarousel from './components/ProjectsCarousel'
+import { projects } from './data/projects'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -97,98 +94,7 @@ function App() {
                 My Projects
               </h2>
 
-              <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
-                <img
-                  src={ippolitoDesignHome}
-                  className="card-img-top"
-                  alt="ippolitodesign.it"
-                  style={{ height: '8rem', objectFit: 'cover' }}
-                />
-                <div className="card-body py-2">
-                  <a
-                    href="https://ippolitodesign.it"
-                    className="text-white text-decoration-none"
-                  >
-                    <h6 className="card-title mb-0 fw-bold">ippolitodesign.it</h6>
-                    <p className="text-white small mb-0 mt-1">React • CSS • Node</p>
-                  </a>
-                </div>
-              </div>
-
-              <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
-                <img
-                  src={iotiscelgoHome}
-                  className="card-img-top"
-                  alt="iotiscelgo.it"
-                  style={{ height: '8rem', objectFit: 'cover' }}
-                />
-                <div className="card-body py-2">
-                  <a
-                    href="https://iotiscelgo.it"
-                    className="text-white text-decoration-none"
-                  >
-                    <h6 className="card-title mb-0 fw-bold">iotiscelgo.it</h6>
-                    <p className="text-white small mb-0 mt-1">React • CSS • Node</p>
-                  </a>
-                </div>
-              </div>
-
-              <div className="d-flex flex-column gap-3">
-                <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
-                  <img
-                    src={smartmoodHome}
-                    className="card-img-top"
-                    alt="Smart Mood"
-                    style={{ height: '8rem', objectFit: 'cover' }}
-                  />
-                  <div className="card-body py-2">
-                    <a
-                      href="https://github.com/413f10r/progetto-finale-spec-frontend-front"
-                      className="text-white text-decoration-none"
-                    >
-                      <h6 className="card-title mb-0 fw-bold">Smart Mood</h6>
-                      <p className="text-white small mb-0 mt-1">React • Express • MySQL</p>
-                    </a>
-                  </div>
-                </div>
-
-
-                <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
-                  <img
-                    src={kickshopHome}
-                    className="card-img-top"
-                    alt="Kick Shop"
-                    style={{ height: '8rem', objectFit: 'cover' }}
-                  />
-                  <div className="card-body py-2">
-                    <a
-                      href="https://github.com/413f10r/Kick_Shop"
-                      className="text-white text-decoration-none"
-                    >
-                      <h6 className="card-title mb-0 fw-bold">Kick Shop</h6>
-                      <p className="text-white small mb-0 mt-1">HTML • CSS • JavaScript</p>
-                    </a>
-                  </div>
-                </div>
-
-                <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem  ' }}>
-                  <img
-                    src={BooRoadHome}
-                    className="card-img-top"
-                    alt="Boo Road"
-                    style={{ height: '8rem', objectFit: 'cover' }}
-                  />
-                  <div className="card-body py-2">
-                    <a
-                      href="https://github.com/413f10r/BooRoad"
-                      className="text-white text-decoration-none"
-                    >
-                      <h6 className="card-title mb-0 fw-bold">Boo Road</h6>
-                      <p className="text-white small mb-0 mt-1">JavaScript • HTML • CSS</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <ProjectsCarousel projects={projects} />
             </div>
           </div>
         </div>
