@@ -94,6 +94,43 @@ function App() {
               <h2 className="mb-3 text-center h4" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
                 My Projects
               </h2>
+
+              <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
+                <img
+                  src={kickshopHome}
+                  className="card-img-top"
+                  alt="ippolitodesign.it"
+                  style={{ height: '8rem', objectFit: 'cover' }}
+                />
+                <div className="card-body py-2">
+                  <a
+                    href="https://github.com/413f10r/ippolito-design-primitiva"
+                    className="text-white text-decoration-none"
+                  >
+                    <h6 className="card-title mb-0 fw-bold">ippolitodesign.it</h6>
+                    <p className="text-white small mb-0 mt-1">React • CSS • Node</p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
+                <img
+                  src={kickshopHome}
+                  className="card-img-top"
+                  alt="iotiscelgo.it"
+                  style={{ height: '8rem', objectFit: 'cover' }}
+                />
+                <div className="card-body py-2">
+                  <a
+                    href="https://github.com/413f10r/"
+                    className="text-white text-decoration-none"
+                  >
+                    <h6 className="card-title mb-0 fw-bold">iotiscelgo.it</h6>
+                    <p className="text-white small mb-0 mt-1">React • CSS • Node</p>
+                  </a>
+                </div>
+              </div>
+
               <div className="d-flex flex-column gap-3">
                 <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
                   <img
@@ -112,6 +149,7 @@ function App() {
                     </a>
                   </div>
                 </div>
+
 
                 <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
                   <img
