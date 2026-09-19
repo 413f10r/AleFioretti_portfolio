@@ -7,6 +7,8 @@ import myphoto from './img/myphoto.jpg'
 import smartmoodHome from './img/smartmood/smartmood-home.jpeg'
 import kickshopHome from './img/kickshop/kickshop-home.jpeg'
 import BooRoadHome from './img/booroad/booroad-home.jpeg'
+import iotiscelgoHome from './img/Screen-iotiscelgo.png'
+import ippolitoDesignHome from './img/Screen-ippolito.design.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -97,14 +99,14 @@ function App() {
 
               <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
                 <img
-                  src={kickshopHome}
+                  src={ippolitoDesignHome}
                   className="card-img-top"
                   alt="ippolitodesign.it"
                   style={{ height: '8rem', objectFit: 'cover' }}
                 />
                 <div className="card-body py-2">
                   <a
-                    href="https://github.com/413f10r/ippolito-design-primitiva"
+                    href="https://ippolitodesign.it"
                     className="text-white text-decoration-none"
                   >
                     <h6 className="card-title mb-0 fw-bold">ippolitodesign.it</h6>
@@ -115,14 +117,14 @@ function App() {
 
               <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
                 <img
-                  src={kickshopHome}
+                  src={iotiscelgoHome}
                   className="card-img-top"
                   alt="iotiscelgo.it"
                   style={{ height: '8rem', objectFit: 'cover' }}
                 />
                 <div className="card-body py-2">
                   <a
-                    href="https://github.com/413f10r/"
+                    href="https://iotiscelgo.it"
                     className="text-white text-decoration-none"
                   >
                     <h6 className="card-title mb-0 fw-bold">iotiscelgo.it</h6>
