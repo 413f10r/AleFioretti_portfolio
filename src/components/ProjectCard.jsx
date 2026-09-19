@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
     return (
-        <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '20rem' }}>
+        <div className="card glass-effect hover-lift transition-all" style={{ height: '12rem', width: '100%' }}>
             <img
                 src={project.image}
                 className="card-img-top"

@@ -16,7 +16,7 @@ function App() {
         <div className="row flex-grow-1">
 
           {/* Profile Card - Left Column */}
-          <div className="col-md-3 d-flex align-items-center pt-5 ps-5">
+          <div className="col-12 col-md-3 order-2 order-md-1 d-flex align-items-center pt-4 pt-md-5 px-3 px-md-5">
             <div className="card glass-effect text-white w-100">
               <div className="card-header text-center py-3">
                 <img
@@ -72,7 +72,7 @@ function App() {
           </div>
 
           {/* title - Center Column */}
-          <div className="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+          <div className="col-12 col-md-6 order-1 order-md-2 d-flex flex-column justify-content-center align-items-center text-center pt-4 pt-md-0">
             <div className="mb-4">
               <h1 className="display-4 fw-bold" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
                 ALESSANDRO FIORETTI
@@ -88,7 +88,7 @@ function App() {
           </div>
 
           {/* Projects - Right Column */}
-          <div className="col-md-3 d-flex align-items-center pt-4 justify-content-center">
+          <div className="col-12 col-md-3 order-3 d-flex align-items-center pt-4 justify-content-center">
             <div>
               <h2 className="mb-3 text-center h4" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
                 My Projects
@@ -100,7 +100,7 @@ function App() {
         </div>
 
         {/* Skills Footer con position relative */}
-        <div className="skills-footer-relative">
+        <div className="skills-footer-relative order-4">
           <div className="d-flex justify-content-center">
             <div className="skills-container d-flex flex-wrap gap-3 justify-content-center">
               <div className="skill-icon d-flex align-items-center justify-content-center hover-scale position-relative">

@@ -20,6 +20,12 @@
   /* Previene overflow */
 }
 
+/* Previeni overflow sui contenitori principali */
+.container-fluid {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
 /* Glass Effect */
 .glass-effect {
   background: rgba(255, 255, 255, 0.1) !important;
@@ -125,6 +131,24 @@
 
 /* Responsive per schermi piccoli */
 @media (max-width: 768px) {
+  .bkg-container {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .container-fluid {
+    max-height: none;
+    overflow: visible;
+    height: auto;
+  }
+
+  .skills-footer-relative {
+    position: static;
+    bottom: auto;
+    padding: 3vh 0 2vh;
+  }
+
   .skills-container {
     gap: 1vh;
   }
@@ -139,15 +163,10 @@
     font-size: 10px;
   }
 
-  .skills-footer-relative {
-    bottom: 2vh;
+  .projects-carousel,
+  .projects-carousel-slide {
+    width: min(20rem, 85vw);
   }
-}
-
-/* Previeni overflow sui contenitori principali */
-.container-fluid {
-  max-height: 100vh;
-  overflow: hidden;
 }
 
 /* Projects Carousel */
