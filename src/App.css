@@ -167,6 +167,12 @@
   .projects-carousel-slide {
     width: min(20rem, 85vw);
   }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
 }
 
 /* Projects Carousel */
