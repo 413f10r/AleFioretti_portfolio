@@ -85,6 +85,10 @@ function App() {
             <div className="logo-react mb-4">
               <FaReact size={100} className="text-react" />
             </div>
+
+            <p className="site-quote fst-italic mb-0">
+              "Se gli uomini comunicassero parlando in React, allora farei lo scrittore!"
+            </p>
           </div>
 
           {/* Projects - Right Column */}
@@ -102,7 +106,7 @@ function App() {
         {/* Skills Footer con position relative */}
         <div className="skills-footer-relative order-4">
           <div className="d-flex justify-content-center">
-            <div className="skills-container d-flex flex-wrap gap-3 justify-content-center">
+            <div className="skills-container justify-content-center">
               <div className="skill-icon d-flex align-items-center justify-content-center hover-scale position-relative">
                 <DiJavascript size={35} className="text-react" />
                 <p className="skill-label">HTML</p>
@@ -133,6 +137,10 @@ function App() {
               </div>
             </div>
           </div>
+
+          <p className="site-signature text-center mb-0">
+            2026 | Ale Fioretti | all right reserved
+          </p>
         </div>
 
       </div>

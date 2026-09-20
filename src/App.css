@@ -94,7 +94,6 @@
   padding: 0 !important;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   gap: 1.5vh;
 }
@@ -129,6 +128,24 @@
   backdrop-filter: blur(5px);
 }
 
+/* Site Signature */
+.site-signature {
+  margin-top: 3.5rem !important;
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.7;
+  letter-spacing: 0.03em;
+}
+
+/* Hero Quote */
+.site-quote {
+  font-size: 1.5vh;
+  font-weight: 400;
+  opacity: 0.85;
+  max-width: 30ch;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 /* Responsive per schermi piccoli */
 @media (max-width: 768px) {
   .bkg-container {
@@ -150,7 +167,11 @@
   }
 
   .skills-container {
-    gap: 1vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2.5rem;
+    column-gap: 1vh;
+    justify-items: center;
   }
 
   .skill-icon {
@@ -168,10 +189,8 @@
     width: min(20rem, 85vw);
   }
 
-  .skills-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
+  .site-signature {
+    margin-top: 2.5rem !important;
   }
 }
 
