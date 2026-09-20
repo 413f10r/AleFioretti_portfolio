@@ -3,8 +3,10 @@ import kickshopHome from '../img/kickshop/kickshop-home.jpeg'
 import BooRoadHome from '../img/booroad/booroad-home.jpeg'
 import iotiscelgoHome from '../img/Screen-iotiscelgo.png'
 import ippolitoDesignHome from '../img/Screen-ippolito.design.png'
+import modulahaiHome from '../img/modula-screen.png'
 
 export const projects = [
+
     {
         id: 'ippolitodesign',
         title: 'ippolitodesign.it',
@@ -12,12 +14,20 @@ export const projects = [
         github: 'https://ippolitodesign.it',
         tech: 'React • CSS • Node',
     },
+
     {
         id: 'iotiscelgo',
         title: 'iotiscelgo.it',
         image: iotiscelgoHome,
         github: 'https://iotiscelgo.it',
-        tech: 'React • CSS • Node',
+        tech: 'HTML • CSS • JavaScript',
+    },
+    {
+        id: 'modulahai',
+        title: 'modulahair.it',
+        image: modulahaiHome,
+        github: 'https://modulahair.it/questionario',
+        tech: 'HTML • CSS • JavaScript',
     },
     {
         id: 'smartmood',

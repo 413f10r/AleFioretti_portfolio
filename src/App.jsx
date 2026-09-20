@@ -62,7 +62,7 @@ function App() {
                 </div>
                 <hr className="border-secondary my-2" />
                 <div className="text-center">
-                  <p className="mb-1 fw-bold small">🤝 Collaborazioni:</p>
+                  <p className="mb-1 fw-bold small">🤝<br /> Info & Collab:</p>
                   <a href="mailto:ale-fioretti@live.it" className="text-white small">
                     ale-fioretti@live.it
                   </a>
@@ -136,7 +136,7 @@ function App() {
         </div>
 
       </div>
-    </div>
+    </div >
   )
 }
 
